@@ -1,5 +1,22 @@
+Title:Digital Differential Analyzer Algorithm
+
+Algorithm:
+
+Start. ∆ y = m ∆ x y2-y1 = m (x2-x1)
+Declare variables x,y,x1,y1,x2,y2,k,dx,dy,s,xi,yi and also declare gdriver=DETECT, mode.
+Initialize the graphic mode with the path location in TurboC3 folder.
+Input the two line end-points and store the left end-points in (x1,y1).
+Load (x1, y1) into the frame buffer; that is, plot the first point. put x=x1,y=y1.
+Calculate dx=x2-x1 and dy=y2-y1.
+If abs (dx) > abs (dy), do s=abs(dx).
+Otherwise s= abs(dy).
+Then xi=dx/s and yi=dy/s.
+Start from k=0 and continuing till k<s,the points will be i. x=x+xi. ii. Y=y+yi.
+Plot pixels using putpixel at points (x,y) in specified colour.
+Close Graph and stop.
+
 Result:
-The program successfully displayed various graphical elements on the screen, including pixels, lines, a rectangle, a circle, and text. Each element was drawn with different colors and positions, demonstrating the basic capabilities of C graphics and the use of the graphics.h library. The background color and text were also successfully set, confirming that the program correctly executes basic drawing commands.
+The program draws a white line from the starting point `(5,1)` to the ending point `(20,60)` using the DDA algorithm. Along the line, each pixel is plotted incrementally to form a smooth straight line. Additionally, the text `"S. Bhattarai"` and `"240370"` appears at specified positions on the graphics screen.
 
 Conclusion:
-Computer graphics allows us to visually represent data and ideas on a screen, making it easier to understand and interact with information. Using C and the graphics.h library, we can create basic shapes, lines, pixels, and text, which form the foundation for more advanced graphical applications. This exercise demonstrates how simple programming commands can control graphics output, helping beginners understand the relationship between code and visual representation.
+This program demonstrates the DDA line drawing algorithm, which calculates intermediate points using incremental steps to produce a straight line on the screen. It highlights the use of `putpixel` for plotting and `outtextxy` for labeling, showing a simple but effective example of graphics programming in C. Proper initialization of the starting coordinates is essential for accurate line placement.
