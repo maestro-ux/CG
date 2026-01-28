@@ -86,4 +86,5 @@ Conclusion:
 We learnt to draw circle in BGI using midpoint circle algorithm.
 
 
-We learnt to draw circle in BGI using midpoint circle algorithm.
+
+
