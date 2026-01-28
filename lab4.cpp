@@ -5,7 +5,7 @@ void draw_circle(int,int,int);
 void symmetry(int,int,int,int);
 int main()
 {
-int xc=100,yc=200,R=50;
+int xc=100,yc=200,R=100;
 int gd=DETECT,gm;
 initgraph(&gd,&gm,"");
 draw_circle(xc,yc,R);
@@ -50,4 +50,6 @@ putpixel(xc-y,yc-x, RED); //For pixel (-y,x)
 delay(50);
 putpixel(xc-x,yc-y, RED); //For pixel (-x,y)
 delay(50);
+outtextxy(xc-25,yc,"Saugat shrestha");
+outtextxy(xc-25,yc+20,"240282");
 }
