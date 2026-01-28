@@ -1,5 +1,5 @@
 Topics
 
-Graphics environment setup
+Graphics environment setups
 Basic primitives
-First drawing programs
+And programs
