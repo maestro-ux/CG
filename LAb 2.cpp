@@ -30,8 +30,8 @@ y=y+yinc;
 putpixel(round(x),round(y),WHITE);
 }
 // Text (cast to char* to remove warning)
-    outtextxy(140, 420, (char*)"S. Bhattarai");
-    outtextxy(140, 440, (char*)"240370");
+    outtextxy(140, 420, (char*)"Saugat shrestha");
+    outtextxy(140, 440, (char*)"240382");
 
 getch();
 closegraph();
