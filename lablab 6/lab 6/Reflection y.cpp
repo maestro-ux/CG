@@ -38,7 +38,7 @@ int main()
         PolygonPoints[iCnt][0]+=320;
         PolygonPoints[iCnt][1]=240-PolygonPoints[iCnt][1];
     }
-    outtextxy(150,150,"240363");
+    outtextxy(150,150,"240382");
 
 
     PolyLine();
