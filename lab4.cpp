@@ -51,5 +51,5 @@ delay(50);
 putpixel(xc-x,yc-y, RED); //For pixel (-x,y)
 delay(50);
 outtextxy(xc-25,yc,"Saugat shrestha");
-outtextxy(xc-25,yc+20,"240282");
+outtextxy(xc-25,yc+20,"240382");
 }
