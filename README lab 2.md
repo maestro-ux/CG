@@ -16,7 +16,7 @@ Plot pixels using putpixel at points (x,y) in specified colour.
 Close Graph and stop.
 
 Result:
-The program draws a white line from the starting point `(5,1)` to the ending point `(20,60)` using the DDA algorithm. Along the line, each pixel is plotted incrementally to form a smooth straight line. Additionally, the text `"S. Bhattarai"` and `"240370"` appears at specified positions on the graphics screen.
+The program draws a white line from the starting point `(5,1)` to the ending point `(20,60)` using the DDA algorithm. Along the line, each pixel is plotted incrementally to form a smooth straight line. Additionally, the text `"Saugat"` and `"240382"` appears at specified positions on the graphics screen.
 
 Conclusion:
 This program demonstrates the DDA line drawing algorithm, which calculates intermediate points using incremental steps to produce a straight line on the screen. It highlights the use of `putpixel` for plotting and `outtextxy` for labeling, showing a simple but effective example of graphics programming in C. Proper initialization of the starting coordinates is essential for accurate line placement.
