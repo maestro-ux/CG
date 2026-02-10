@@ -20,7 +20,7 @@ int main()
     scanf("%d",&R);
     draw_circle(xc,yc,R);
     outtextxy(xc-25,yc,"Saugat shrestha");
-     outtextxy(xc-25,yc+20,"240282");
+     outtextxy(xc-25,yc+20,"240382");
     getch();
     closegraph();
     return 0;
